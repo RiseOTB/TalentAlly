@@ -1,0 +1,47 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+    color: #333;
+    text-align: center;
+}
+header {
+    background: linear-gradient(90deg, #001f3f, #0074D9);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+#home {
+    padding: 100px 20px;
+}
+.cta-button {
+    background: #FF851B;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+footer {
+    background: #001f3f;
+    color: #fff;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
